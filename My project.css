@@ -1,0 +1,1293 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.navbar1 {
+    height: 60px; 
+    background-color: #393E46;
+    color: whitesmoke;
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#nav-logo { 
+    font-size: 2.8rem;
+    margin-left: 80px;
+    font-weight: 700;
+}
+
+#nav-search { 
+    display: flex;
+    height: 35px;
+    padding-left: 100px;
+}
+
+#search-inp {
+    width: 600px;
+    font-size: 1.2rem;
+    color: #393E46;
+}
+
+#nav-search-logo {
+    height: 35px;
+    width: 40px;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+#nav-search-logo:hover {
+    border: 2px solid #E8D1C5;
+}
+
+#nav-manu-bar {
+    margin-left: 120px;
+    font-size: 1.3rem;
+    display: block;
+}
+
+#nav-login {
+    font-size: 1.2rem;
+    display: block;
+}
+
+#nav-add-cart {
+    margin-right: 20px;
+    font-size: 1.1rem;
+    display: block;
+}
+
+/* first image */
+.first-back-img {
+    height: 450px;
+    background-image: url(first_img.webp);
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+/* boxs */
+.women {
+    
+    height: 1700px;
+    margin-top: 10px;
+    display: block;
+
+}
+
+#select-gender {
+    margin-top: 150px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-left: 45%;
+    display: block;
+}
+
+#kameez-salwar {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+         /* sal box 1  */
+
+#wom-sal-div1 { 
+    background-image: url(wom-sal-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#wom-sal-div2 { 
+    background-image: url(wom-sal-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#wom-sal-div3 { 
+    background-image: url(wom-sal-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#wom-sal-div4 { 
+    background-image: url(wom-sal-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+              /* sal box 2  */
+
+.sal-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sal-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#sal-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#sal-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#sal-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+          /* sal box 3 */
+
+.sal-price-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+#sal-price1 {
+    display: inline-block;
+    margin-left: 195px;
+   
+}
+
+#sal-price2 {
+    display: inline-block;
+    margin-left: 160px;
+
+}
+#sal-price3 {
+    display: inline-block;
+    margin-left: 180px;
+    
+}
+
+#sal-price4 {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+          /* saree box 1  */
+
+.wom-saree {
+    display: block;
+    margin-top: 40px;
+    height: 360px;
+    width: 100%;
+    
+
+}
+#saree {
+     display: block; 
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-left: 40px;
+}
+#wom-saree-div1 { 
+    background-image: url(wom-saree-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#wom-saree-div2 { 
+    background-image: url(wom-saree-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#wom-saree-div3 { 
+    background-image: url(wom-saree-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#wom-saree-div4 { 
+    background-image: url(wom-saree-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+           /* saree box 2 */
+.saree-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+#saree-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+    margin-top: 15px;
+       
+}
+#saree-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+   
+}
+#saree-div3-info {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#saree-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 15px;
+   
+}
+          /* saree box 3 */
+
+.saree-price-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+#saree-price1 {
+    display: inline-block;
+    margin-left: 195px;
+   
+}
+
+#saree-price2 {
+    display: inline-block;
+    margin-left: 160px;
+
+}
+#saree-price3 {
+    display: inline-block;
+    margin-left: 180px;
+    
+}
+
+#saree-price4 {
+    display: inline-block;
+    margin-left: 180px;
+}
+
+          /* bouf box 1  */
+
+.wom-bouf {
+    display: block;
+    margin-top: 40px;
+    height: 360px;
+    width: 100%;
+    
+
+}
+#bouf {
+     display: block; 
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-left: 40px;
+}
+#wom-bouf-div1 { 
+    background-image: url(wom-bouf-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#wom-bouf-div2 { 
+    background-image: url(wom-bouf-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#wom-bouf-div3 { 
+    background-image: url(wom-bouf-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#wom-bouf-div4 { 
+    background-image: url(wom-bouf-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+           /* bouf box 2 */
+/* .bouf-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+} */
+
+#bouf-div1-info {
+    display: inline-block;
+    margin-left: 30px ;
+    margin-top: 40px;
+    
+       
+}
+#bouf-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#bouf-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#bouf-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+          /* bouf box 3 */
+
+.bouf-price-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+
+#bouf-price1 {
+    display: inline-block;
+    margin-left: 195px;
+   
+}
+
+#bouf-price2 {
+    display: inline-block;
+    margin-left: 160px;
+
+}
+#bouf-price3 {
+    display: inline-block;
+    margin-left: 180px;
+    
+}
+
+#bouf-price4 {
+    display: inline-block;
+    margin-left: 180px;
+}
+        /* boys section  */
+.boys {
+    height: 1600px;
+    margin-top: 10px;
+    display: block;
+}
+
+#select-gender-boys {
+    margin-top: 10px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-left: 45%;
+    display: block;
+}
+
+#kameez-salwar-boys {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+        /* boys sal box1  */
+#boys-sal-div1 { 
+    background-image: url(boys-sal-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#boys-sal-div2 { 
+    background-image: url(boys-sal-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#boys-sal-div3 { 
+    background-image: url(boys-sal-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#boys-sal-div4 { 
+    background-image: url(boys-sal-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+             /*boys sal box 2  */
+
+ .boys-sal-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#boys-sal-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#boys-sal-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#boys-sal-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#boys-sal-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+         /* boys sal box 3 */
+
+.boys-sal-price-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+#boys-sal-price1 {
+    display: inline-block;
+    margin-left: 195px;
+   
+}
+
+#boys-sal-price2 {
+    display: inline-block;
+    margin-left: 160px;
+
+}
+#boys-sal-price3 {
+    display: inline-block;
+    margin-left: 180px;
+    
+}
+
+#boys-sal-price4 {
+    display: inline-block;
+    margin-left: 180px;
+}
+      /* boys pants box1  */
+
+#pants-shirts-boys {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+        
+#boys-pants-div1 { 
+    background-image: url(boys-pants-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#boys-pants-div2 { 
+    background-image: url(boys-pants-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#boys-pants-div3 { 
+    background-image: url(boys-pants-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#boys-pants-div4 { 
+    background-image: url(boys-pants-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+             /*boys pants box 2  */
+
+ .boys-pants-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#boys-pants-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#boys-pants-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#boys-pants-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#boys-pants-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+         /* boys pants box 3 */
+
+.boys-pants-price-flex {
+    display: flex;
+    margin: 5px;
+}
+
+#boys-pants-price1 {
+    display: inline-block;
+    margin-left: 240px;
+   
+}
+
+#boys-pants-price2 {
+    display: inline-block;
+    margin-left: 270px;
+
+}
+#boys-pants-price3 {
+    display: inline-block;
+    margin-left: 260px;
+    
+}
+
+#boys-pants-price4 {
+    display: inline-block;
+    margin-left: 260px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+     /* boys formal box1  */
+
+#formal-boys {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+        
+#boys-form-div1 { 
+    background-image: url(boys-form-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#boys-form-div2 { 
+    background-image: url(boys-form-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#boys-form-div3 { 
+    background-image: url(boys-form-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#boys-form-div4 { 
+    background-image: url(boys-form-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+              /* boys formal box 2  */
+
+.boys-form-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#boys-form-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#boys-form-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#boys-form-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#boys-form-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+         /* boys formal box 3 */
+
+.boys-form-price-flex {
+    display: flex;
+    margin: 5px;
+}
+
+#boys-form-price1 {
+    display: inline-block;
+    margin-left: 240px;
+   
+}
+
+#boys-form-price2 {
+    display: inline-block;
+    margin-left: 270px;
+
+}
+#boys-form-price3 {
+    display: inline-block;
+    margin-left: 260px;
+    
+}
+
+#boys-form-price4 {
+    display: inline-block;
+    margin-left: 260px;
+}
+
+
+        /* man section  */
+.man {
+    height: 1600px;
+    margin-top: 10px;
+    display: block;
+}
+
+#select-gender-man {
+    margin-top: 10px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-left: 45%;
+    display: block;
+}
+
+#kameez-salwar-man {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+        /* man sal box1  */
+#man-sal-div1 { 
+    background-image: url(man-sal-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#man-sal-div2 { 
+    background-image: url(man-sal-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#man-sal-div3 { 
+    background-image: url(man-sal-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#man-sal-div4 { 
+    background-image: url(man-sal-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+             /*man sal box 2  */
+
+ .man-sal-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#man-sal-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#man-sal-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#man-sal-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#man-sal-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+         /* man sal box 3 */
+
+.man-sal-price-flex {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+#man-sal-price1 {
+    display: inline-block;
+    margin-left: 195px;
+   
+}
+
+#man-sal-price2 {
+    display: inline-block;
+    margin-left: 160px;
+
+}
+#man-sal-price3 {
+    display: inline-block;
+    margin-left: 180px;
+    
+}
+
+#man-sal-price4 {
+    display: inline-block;
+    margin-left: 180px;
+}
+      /* man pants box1  */
+
+#pants-shirts-man {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+        
+#man-pants-div1 { 
+    background-image: url(man-pants-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#man-pants-div2 { 
+    background-image: url(man-pants-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#man-pants-div3 { 
+    background-image: url(man-pants-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#man-pants-div4 { 
+    background-image: url(man-pants-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+             /*man pants box 2  */
+
+ .man-pants-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#man-pants-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#man-pants-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#man-pants-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#man-pants-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+         /* man pants box 3 */
+
+.man-pants-price-flex {
+    display: flex;
+    margin: 5px;
+   
+}
+
+#man-pants-price1 {
+    display: inline-block;
+    margin-left: 240px;
+   
+}
+
+#man-pants-price2 {
+    display: inline-block;
+    margin-left: 270px;
+
+}
+#man-pants-price3 {
+    display: inline-block;
+    margin-left: 260px;
+    
+}
+
+#man-pants-price4 {
+    display: inline-block;
+    margin-left: 260px;
+}
+
+
+     /* man formal box1  */
+
+#formal-man {
+    display: block; 
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 35px;
+  
+}
+        
+#man-form-div1 { 
+    background-image: url(man-form-div1.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    
+}
+#man-form-div2 { 
+    background-image: url(man-form-div2.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+#man-form-div3 { 
+    background-image: url(man-form-div3.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+#man-form-div4 { 
+    background-image: url(man-form-div4.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+              /* man formal box 2  */
+
+.man-form-info-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#man-form-div1-info {
+    display: inline-block;
+    margin-left: 20px ;
+       
+}
+#man-form-div2-info {
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#man-form-div3-info {
+    display: inline-block;
+    margin-right: 38px;
+    margin-left: 28px;
+}
+#man-form-div4-info {
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+         /* man formal box 3 */
+
+.man-form-price-flex {
+    display: flex;
+    margin: 5px;
+   
+}
+
+#man-form-price1 {
+    display: inline-block;
+    margin-left: 240px;
+   
+   
+}
+
+#man-form-price2 {
+    display: inline-block;
+    margin-left: 270px;
+
+}
+#man-form-price3 {
+    display: inline-block;
+    margin-left: 260px;
+    
+}
+
+#man-form-price4 {
+    display: inline-block;
+    margin-left: 260px;
+}
+
+
+
+          /* foot panel1  */
+.foot-panel1 {
+    height: 40px;
+    width: 100%;
+    background-color: #393E46;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#text-panel1 {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+#back-top-a {
+    color: whitesmoke;
+}
+         /* foot panel 2 box 1  */
+.helping-info-panel2 { height: 350px;
+    display: block;
+    background-color: wheat;
+    
+
+}
+.return {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 270px;
+    width: 370px;
+    background-color: wheat;
+    display: inline-block;
+    
+
+}
+#return-logo {
+    display: block;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.text0-return {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 90px;
+    
+
+}
+.text1-return {
+    padding-left: 89px ;
+}
+.text2-return {
+    padding-left: 115px ;
+
+}
+         /* panel2 box 2 */
+.shipping {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 270px;
+    width: 370px;
+    background-color: wheat;
+    display: inline-block;
+    
+
+}
+#shipping-logo {
+    display: block;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.text0-shipping {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 155px;
+    
+
+}
+.text1-shipping {
+    padding-left: 95px ;
+}
+.text2-shipping {
+    padding-left: 155px ;
+
+}
+         /* panel2 box 3 */
+.support {
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 270px;
+    width: 370px;
+    background-color: wheat;
+    display: inline-block;
+    
+
+}
+#support-logo {
+    display: block;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.text0-support {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 145px;
+    
+
+}
+.text1-support {
+    padding-left: 122px ;
+}
+.text2-support {
+    padding-left: 128px ;
+
+}
+      /* foot-panel3  */
+.panel3-flex {
+    display: block;
+    height: 50px;
+    color: #ffffff;
+    background-color: #393E46;
+
+}
+.foot-panel3{
+    padding-top: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+#panel3-p1  {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
+#panel3-a1 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
+#panel3-a2 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
+#panel3-a3 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+    
+
+}
+#panel3-a4 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
+#panel3-a5 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
+#panel3-a6 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
+#panel3-a7 {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+
+}
