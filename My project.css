@@ -1,7 +1,21 @@
+/* RESPONSIVE PRODUCT BOX */
+#wom-sal-div1,#wom-sal-div2,#wom-sal-div3,#wom-sal-div4,
+#wom-saree-div1,#wom-saree-div2,#wom-saree-div3,#wom-saree-div4,
+#wom-bouf-div1,#wom-bouf-div2,#wom-bouf-div3,#wom-bouf-div4,
+#boys-sal-div1,#boys-sal-div2,#boys-sal-div3,#boys-sal-div4,
+#boys-pants-div1,#boys-pants-div2,#boys-pants-div3,#boys-pants-div4,
+#boys-form-div1,#boys-form-div2,#boys-form-div3,#boys-form-div4,
+#man-sal-div1,#man-sal-div2,#man-sal-div3,#man-sal-div4,
+#man-pants-div1,#man-pants-div2,#man-pants-div3,#man-pants-div4,
+#man-form-div1,#man-form-div2,#man-form-div3,#man-form-div4{
+width:100%;
+max-width:300px;
+height:350px;
+}
 * {
     margin: 0px;
     box-sizing: border-box;
-    display: inline;
+    
 }
 
 .navbar1 {
@@ -1292,44 +1306,43 @@ a {
 
 
 }
-@media (max-width: 768px) {
-    .navbar {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        text-align: center;
-    }
-    
-    .navbar img {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto;
-    }
-    
-    .logo-text {
-        font-size: 22px;
-    }
-    
-    .right-header {
-        margin-top: 0;
-    }
-    
-    #hadding,
-    #a {
-        font-size: 18px;
-        margin: 20px 10px;
-        padding: 15px;
-    }
-    
-    #bursh img,
-    #bursh video {
-        width: 90%;
-        max-width: 300px;
-        height: auto;
-    }
-    
-    #all {
-        padding: 10px;
-        gap: 15px;
-    }
+@media(max-width:768px){
+
+.navbar1{
+flex-direction:column;
+height:auto;
+padding:10px;
+}
+
+#nav-logo{
+margin-left:0;
+font-size:2rem;
+}
+
+#nav-search{
+padding-left:0;
+width:100%;
+justify-content:center;
+}
+
+#search-inp{
+width:100%;
+}
+
+#nav-manu-bar,
+#nav-login,
+#nav-add-cart{
+margin:5px 0;
+}
+
+}
+@media(max-width:768px){
+
+#select-gender,
+#select-gender-boys,
+#select-gender-man{
+margin-left:0;
+text-align:center;
+}
 
 }
